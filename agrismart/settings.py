@@ -29,7 +29,7 @@ import os
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.onrender.com']
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 

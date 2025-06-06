@@ -1,0 +1,14 @@
+# render.yaml
+services:
+  - type: web
+    name: agrismart-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn agrismart.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: agrismart.settings
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: False

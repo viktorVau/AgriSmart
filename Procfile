@@ -1,1 +1,1 @@
-web: gunicorn yourproject.wsgi
+echo "web: gunicorn agrismart.wsgi" > Procfile
