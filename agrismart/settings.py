@@ -169,19 +169,20 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'agrismart.wsgi.application'
 
-
+import dj_database_url
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'agrismart_db',       # Your DB name
-        'USER': 'postgres',       # Your PostgreSQL username
-        'PASSWORD': 'darexpon',  # Your PostgreSQL password
-        'HOST': 'localhost',
-        'PORT': '5432',               # Default PostgreSQL port
-    }
+    'default': dj_database_url.config(default=config('DATABASE_URL'))
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'agrismart_db',       # Your DB name
+    #     'USER': 'postgres',       # Your PostgreSQL username
+    #     'PASSWORD': 'darexpon',  # Your PostgreSQL password
+    #     'HOST': 'localhost',
+    #     'PORT': '5432',               # Default PostgreSQL port
+    # }
 }
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
