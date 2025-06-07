@@ -172,6 +172,7 @@ WSGI_APPLICATION = 'agrismart.wsgi.application'
 import dj_database_url
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+from decouple import config
 
 DATABASES = {
     'default': dj_database_url.config(default=config('postgresql://agrismart_db_user:hTVk3xP9lYMAn56BjOKzhWjW5m7KY2Vp@dpg-d11ucc95pdvs73c4voag-a/agrismart_db'))
