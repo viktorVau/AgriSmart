@@ -56,9 +56,9 @@ coverage.xml
 *.pyc
 local_settings.py
 db.sqlite3
-media/
-staticfiles/
-static/
+# media/
+# staticfiles/
+# static/
 .env
 
 # VSCode

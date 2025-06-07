@@ -29,7 +29,7 @@ import os
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
@@ -52,6 +52,7 @@ USE_L10N = True
 USE_TZ = True
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+
 
 # Application definition
 
@@ -148,6 +149,7 @@ SIMPLE_JWT = {
 
 
 CORS_ALLOW_ALL_ORIGINS = True  # Or use CORS_ALLOWED_ORIGINS for production
+CORS_ALLOW_CREDENTIALS = True
 
 TEMPLATES = [
     {
