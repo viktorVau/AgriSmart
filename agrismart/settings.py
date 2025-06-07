@@ -175,7 +175,7 @@ import dj_database_url
 from decouple import config
 
 DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
+    'default': dj_database_url.config(default=os.environ.get("DATABASE_URL"))
     # 'default': {
     #     'ENGINE': 'django.db.backends.postgresql',
     #     'NAME': 'agrismart_db',       # Your DB name
