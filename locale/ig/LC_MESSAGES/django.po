@@ -4,184 +4,246 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
+msgid ""
+msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 02:48+0100\n"
+"POT-Creation-Date: 2025-06-08 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-msgid ""
-msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Language: ig\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "Check your email for verification"
-msgstr "[IG] Check your email for verification"
-
-msgid "Invalid or expired token"
-msgstr "[IG] Invalid or expired token"
-
-msgid "If your email is in our system, we have sent you a link to reset your password."
-msgstr "[IG] If your email is in our system, we have sent you a link to reset your password."
-
-msgid "Token is invalid or expired"
-msgstr "[IG] Token is invalid or expired"
-
-msgid "Password reset successful!"
-msgstr "[IG] Password reset successful!"
-
-msgid "Incorrect password."
-msgstr "[IG] Incorrect password."
-
-msgid "Password changed successfully."
-msgstr "[IG] Password changed successfully."
-
-msgid "Password is required."
-msgstr "[IG] Password is required."
-
-msgid "Invalid password."
-msgstr "[IG] Invalid password."
-
-msgid "Account deactivated successfully."
-msgstr "[IG] Account deactivated successfully."
-
-msgid "Email and password are required."
-msgstr "[IG] Email and password are required."
-
-msgid "Invalid credentials or account does not exist."
-msgstr "[IG] Invalid credentials or account does not exist."
-
-msgid "Account is already active."
-msgstr "[IG] Account is already active."
-
-msgid "Account reactivated successfully."
-msgstr "[IG] Account reactivated successfully."
-
-msgid "Farmer account created. Please check your email to verify your account."
-msgstr "[IG] Farmer account created. Please check your email to verify your account."
-
-msgid "Agronomist account created. Please check your email to verify your account."
-msgstr "[IG] Agronomist account created. Please check your email to verify your account."
-
-msgid "Profile not found."
-msgstr "[IG] Profile not found."
-
-msgid "City not provided and no location found for user."
-msgstr "[IG] City not provided and no location found for user."
-
-msgid "Missing required fields:"
-msgstr "[IG] Missing required fields:"
-
-msgid "Weather info missing and no city provided or found in profile."
-msgstr "[IG] Weather info missing and no city provided or found in profile."
-
-msgid "Soil test submitted successfully."
-msgstr "[IG] Soil test submitted successfully."
-
-msgid "Soil image analyzed successfully."
-msgstr "[IG] Soil image analyzed successfully."
-
-msgid "recommended_crop"
-msgstr "[IG] recommended_crop"
-
-msgid "rice"
-msgstr "[IG] rice"
-
-msgid "maize"
-msgstr "[IG] maize"
-
-msgid "chick pea"
-msgstr "[IG] chick pea"
-
-msgid "kidney beans"
-msgstr "[IG] kidney beans"
-
-msgid "pigeon peas"
-msgstr "[IG] pigeon peas"
-
-msgid "moth beans"
-msgstr "[IG] moth beans"
-
-msgid "mungbeans"
-msgstr "[IG] mungbeans"
-
-msgid "blackgram"
-msgstr "[IG] blackgram"
-
-msgid "lentil"
-msgstr "[IG] lentil"
-
-msgid "pomegranate"
-msgstr "[IG] pomegranate"
-
-msgid "banana"
-msgstr "[IG] banana"
-
-msgid "mango"
-msgstr "[IG] mango"
-
-msgid "grapes"
-msgstr "[IG] grapes"
-
-msgid "watermelon"
-msgstr "[IG] watermelon"
-
-msgid "muskmelon"
-msgstr "[IG] muskmelon"
-
-msgid "apple"
-msgstr "[IG] apple"
-
-msgid "orange"
-msgstr "[IG] orange"
-
-msgid "papaya"
-msgstr "[IG] papaya"
-
-msgid "coconut"
-msgstr "[IG] coconut"
-
-msgid "cotton"
-msgstr "[IG] cotton"
-
-msgid "jute"
-msgstr "[IG] jute"
-
-msgid "coffee"
-msgstr "[IG] coffee"
-
-
 
 #: .\accounts\models.py:6 .\agrismart\settings.py:39
 msgid "English"
-msgstr ""
+msgstr "Bekee"
 
 #: .\accounts\models.py:7 .\agrismart\settings.py:44
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: .\accounts\models.py:8 .\agrismart\settings.py:41
 msgid "Yoruba"
-msgstr ""
+msgstr "Yorubaa"
 
 #: .\accounts\models.py:9 .\agrismart\settings.py:42
 msgid "Hausa"
-msgstr ""
+msgstr "Hausa"
 
 #: .\accounts\models.py:10 .\agrismart\settings.py:45
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu"
 
 #: .\accounts\models.py:11 .\agrismart\settings.py:43
 msgid "Igbo"
+msgstr "Igbo"
+
+#: .\accounts\views.py:35
+msgid "Check your email for verification"
+msgstr "Lelee email gị maka nkwenye"
+
+#: .\accounts\views.py:50
+msgid "Invalid or expired token"
+msgstr "Akarị ọ dịghị arụ ọrụ ma ọ bụ agwụla"
+
+#: .\accounts\views.py:69
+msgid ""
+"If your email is in our system, we have sent you a link to reset your "
+"password."
+msgstr "Ọ bụrụ na email gị nọ na sistemụ anyị, anyiwezie gị njikọ iji mee ka okwuntughe gị dozie."
+
+#: .\accounts\views.py:80 .\accounts\views.py:83
+msgid "Token is invalid or expired"
+msgstr "Akarị adịghị mma ma ọ bụ agwụla"
+
+#: .\accounts\views.py:94
+msgid "Password reset successful!"
+msgstr "Ntughari okwuntughe gara nke ọma!"
+
+#: .\accounts\views.py:108
+msgid "Incorrect password."
+msgstr "okwuntughe ezighi ezi."
+
+#: .\accounts\views.py:113
+msgid "Password changed successfully."
+msgstr "Okwuntughe gbanwere nke ọma."
+
+#: .\accounts\views.py:131
+msgid "Password is required."
+msgstr "A chọrọ okwuntughe."
+
+#: .\accounts\views.py:135
+msgid "Invalid password."
+msgstr "okwuntughe ezighi ezi."
+
+#: .\accounts\views.py:141
+msgid "Account deactivated successfully."
+msgstr "Akwụkwọ akaghị arụ ọrụ nke ọma."
+
+#: .\accounts\views.py:155
+msgid "Email and password are required."
+msgstr "A chọrọ email na okwuntughe."
+
+#: .\accounts\views.py:160
+msgid "Invalid credentials or account does not exist."
+msgstr "Nkewa adịghị mma ma ọ bụ akaụntụ adịghị."
+
+#: .\accounts\views.py:163
+msgid "Account is already active."
+msgstr "Akaụntụ arụ ọrụla."
+
+#: .\accounts\views.py:171
+msgid "Account reactivated successfully."
+msgstr "A kpọghachirila akaụntụ nke ọma!"
+
+#: .\community\views.py:86
+msgid "Removed from helpful"
+msgstr "Wepụtara “bara uru”"
+
+#: .\community\views.py:89
+msgid "Marked as helpful"
+msgstr "Ebeela “bara uru”"
+
+#: .\core\views.py:39
+msgid "Farmer account created. Please check your email to verify your account."
+msgstr "Akaụntụ onye ọzụzụ ubi kere. Biko lelee email gị iji kwado akaụntụ gị."
+
+#: .\core\views.py:54
+msgid ""
+"Agronomist account created. Please check your email to verify your account."
+msgstr "Akaụntụ onye nyocha ubi kere. Biko lelee email gị iji kwado akaụntụ gị."
+
+#: .\core\views.py:120 .\core\views.py:125
+msgid "Profile not found."
+msgstr "A naghị ahụ profaịlụ ahụ."
+
+#: .\core\views.py:156 .\core\views.py:177
+msgid "City not provided and no location found for user."
+msgstr "Enwetaghị aha obodo ma enwetaghị ebe onye ọrụ nọ."
+
+#. Translators: This string is used as a separator between list elements
+#: .\core\views.py:205 .\venv\Lib\site-packages\django\utils\text.py:297
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
 msgstr ""
 
-#: .\accounts\models.py:12 .\agrismart\settings.py:40
-msgid "French"
+#: .\core\views.py:229
+msgid "Weather info missing and no city provided or found in profile."
+msgstr "Eziokwu ihu igwe furuola ma obodo adịghị na profaịlụ."
+
+#: .\core\views.py:248
+msgid "confidence"
+msgstr "ntụkwasị obi"
+
+#: .\core\views.py:280
+msgid "Soil is too acidic. Consider adding lime."
+msgstr "Ala ala sara ụkwara. Tụlee ịgbakwunye lime"
+
+#: .\core\views.py:282
+msgid "Soil is too alkaline. Consider adding sulfur."
+msgstr "Ala dị oke alkaline. Tụọ ime ịchikota sulfọ."
+
+#: .\core\views.py:284
+msgid "pH level is optimal."
+msgstr "Ogologo pH dị mma."
+
+#: .\core\views.py:287
+msgid "Soil test submitted successfully."
+msgstr "Nnwale ala etinyere nke ọma!"
+
+#: .\core\views.py:309
+msgid "Soil image analyzed successfully."
+msgstr "An nyochaa onyonyo ala nke ọma!"
+
+#: .\marketplace\views.py:34
+msgid "Only farmers can create products."
+msgstr "Ndị ọrụ ubi naanị nwere ike mepụta ngwaahịa."
+
+#: .\marketplace\views.py:86
+msgid "You are not allowed to update this product."
+msgstr "A naghị ekweta ka ịgbanwe ngwaahịa a."
+
+#: .\marketplace\views.py:103
+msgid "You are not allowed to delete this product."
+msgstr "A naghị ekweta ka ịsịkpọlite ngwaahịa a."
+
+#: .\marketplace\views.py:162
+msgid "Message deleted successfully."
+msgstr "Ozi hichapụrụ nke ọma."
+
+#: .\marketplace\views.py:163
+msgid "Not authorized to delete this message."
+msgstr "A naghị ekweta ka ịhichapụ ozi a."
+
+msgid "rice"
+msgstr "osikapa"
+
+msgid "maize"
+msgstr "ọka"
+
+msgid "chick pea"
+msgstr "ahịhịa chick pea"
+
+msgid "kidney beans"
+msgstr "anụ ọrịa bean"
+
+msgid "pigeon peas"
+msgstr "fiofio"
+
+msgid "moth beans"
 msgstr ""
+
+msgid "mungbeans"
+msgstr "ẹwa mung"
+
+msgid "blackgram"
+msgstr "ẹwa gram"
+
+msgid "lentil"
+msgstr "lentil"
+
+msgid "pomegranate"
+msgstr "eramansa"
+
+msgid "banana"
+msgstr "unere"
+
+msgid "mango"
+msgstr "mangọ"
+
+msgid "grapes"
+msgstr "mkpụrụ ọka mmanya"
+
+msgid "watermelon"
+msgstr "mmanya mmiri"
+
+msgid "muskmelon"
+msgstr "melon"
+
+msgid "apple"
+msgstr "apụl"
+
+msgid "orange"
+msgstr "ọrenji"
+
+msgid "papaya"
+msgstr "pawpaw"
+
+msgid "coconut"
+msgstr "kpochapu"
+
+msgid "cotton"
+msgstr "mkpụrụ ọka"
+
+msgid "jute"
+msgstr "juta"
+
+msgid "coffee"
+msgstr "kọfí"
 
 #: .\venv\Lib\site-packages\alabaster\layout.html:99
 msgid "Page source"
@@ -1481,12 +1543,6 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#. Translators: This string is used as a separator between list elements
-#: .\venv\Lib\site-packages\django\utils\text.py:297
-#: .\venv\Lib\site-packages\django\utils\timesince.py:135
-msgid ", "
-msgstr ""
-
 #: .\venv\Lib\site-packages\django\utils\timesince.py:8
 #, python-format
 msgid "%(num)d year"
@@ -1696,6 +1752,34 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
 msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1394
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1447
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1451
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1455
+msgid "No response body"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1419
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1473
+msgid "Unspecified response body"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\plumbing.py:487
+#, python-format
+msgid "Token-based authentication with required prefix \"%s\""
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\views.py:45
+msgid ""
+"\n"
+"    OpenApi3 schema for this API. Format can be selected via content "
+"negotiation.\n"
+"\n"
+"    - YAML: application/vnd.oai.openapi\n"
+"    - JSON: application/vnd.oai.openapi+json\n"
+"    "
 msgstr ""
 
 #: .\venv\Lib\site-packages\python_docs_theme\layout.html:51

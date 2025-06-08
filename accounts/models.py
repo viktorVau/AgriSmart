@@ -9,7 +9,6 @@ LANGUAGE_CHOICES = [
     ('ha', _('Hausa')),
     ('zu', _('Zulu')),
     ('ig', _('Igbo')),
-    ('fr', _('French')),
 ]
 
 

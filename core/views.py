@@ -20,6 +20,28 @@ from drf_spectacular.utils import extend_schema, OpenApiParameter, OpenApiExampl
 from django.shortcuts import redirect
 from django.views import View
 
+
+# core/views.py (or accounts/views.py)
+from django.contrib.auth import get_user_model
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+
+@csrf_exempt
+def create_superuser(request):
+    User = get_user_model()
+    
+    if User.objects.filter(is_superuser=True).exists():
+        return JsonResponse({'detail': 'Superuser already exists.'}, status=400)
+    
+    user = User.objects.create_superuser(
+        email='admin@agrismart.africa',
+        password='AgriSmartAdmin123!',
+        first_name='Admin',
+        last_name='User'
+    )
+    return JsonResponse({'detail': 'Superuser created successfully.', 'email': user.email})
+
+
 class RootRedirectView(View):
     def get(self, request, *args, **kwargs):
         return redirect('/admin/')

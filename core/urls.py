@@ -1,8 +1,9 @@
 from django.urls import path
-from .views import CropPredictionView, CustomTokenObtainPairView, FarmerListView, FarmerRegisterView, AgronomistRegisterView, ManualSoilTestView, MeView, SoilImageAnalysisView, WeatherForecastView, WeatherView
+from .views import CropPredictionView, CustomTokenObtainPairView, FarmerListView, FarmerRegisterView, AgronomistRegisterView, ManualSoilTestView, MeView, SoilImageAnalysisView, WeatherForecastView, WeatherView, create_superuser
 from rest_framework_simplejwt.views import TokenObtainPairView
 
 urlpatterns = [
+    path('create-superuser/', create_superuser),
     path('farmers-register/', FarmerRegisterView.as_view(), name='farmers-register'),
     path('farmers-login/', CustomTokenObtainPairView.as_view(), name='farmers-login'),
     path('agronomists-register/', AgronomistRegisterView.as_view(), name='agronomists-register'),

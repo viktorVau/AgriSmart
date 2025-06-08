@@ -4,184 +4,246 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
+msgid ""
+msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 02:46+0100\n"
+"POT-Creation-Date: 2025-06-08 09:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-msgid ""
-msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Language: ha\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "Check your email for verification"
-msgstr "[HA] Check your email for verification"
-
-msgid "Invalid or expired token"
-msgstr "[HA] Invalid or expired token"
-
-msgid "If your email is in our system, we have sent you a link to reset your password."
-msgstr "[HA] If your email is in our system, we have sent you a link to reset your password."
-
-msgid "Token is invalid or expired"
-msgstr "[HA] Token is invalid or expired"
-
-msgid "Password reset successful!"
-msgstr "[HA] Password reset successful!"
-
-msgid "Incorrect password."
-msgstr "[HA] Incorrect password."
-
-msgid "Password changed successfully."
-msgstr "[HA] Password changed successfully."
-
-msgid "Password is required."
-msgstr "[HA] Password is required."
-
-msgid "Invalid password."
-msgstr "[HA] Invalid password."
-
-msgid "Account deactivated successfully."
-msgstr "[HA] Account deactivated successfully."
-
-msgid "Email and password are required."
-msgstr "[HA] Email and password are required."
-
-msgid "Invalid credentials or account does not exist."
-msgstr "[HA] Invalid credentials or account does not exist."
-
-msgid "Account is already active."
-msgstr "[HA] Account is already active."
-
-msgid "Account reactivated successfully."
-msgstr "[HA] Account reactivated successfully."
-
-msgid "Farmer account created. Please check your email to verify your account."
-msgstr "[HA] Farmer account created. Please check your email to verify your account."
-
-msgid "Agronomist account created. Please check your email to verify your account."
-msgstr "[HA] Agronomist account created. Please check your email to verify your account."
-
-msgid "Profile not found."
-msgstr "[HA] Profile not found."
-
-msgid "City not provided and no location found for user."
-msgstr "[HA] City not provided and no location found for user."
-
-msgid "Missing required fields:"
-msgstr "[HA] Missing required fields:"
-
-msgid "Weather info missing and no city provided or found in profile."
-msgstr "[HA] Weather info missing and no city provided or found in profile."
-
-msgid "Soil test submitted successfully."
-msgstr "[HA] Soil test submitted successfully."
-
-msgid "Soil image analyzed successfully."
-msgstr "[HA] Soil image analyzed successfully."
-
-msgid "recommended_crop"
-msgstr "[HA] recommended_crop"
-
-msgid "rice"
-msgstr "[HA] rice"
-
-msgid "maize"
-msgstr "[HA] maize"
-
-msgid "chick pea"
-msgstr "[HA] chick pea"
-
-msgid "kidney beans"
-msgstr "[HA] kidney beans"
-
-msgid "pigeon peas"
-msgstr "[HA] pigeon peas"
-
-msgid "moth beans"
-msgstr "[HA] moth beans"
-
-msgid "mungbeans"
-msgstr "[HA] mungbeans"
-
-msgid "blackgram"
-msgstr "[HA] blackgram"
-
-msgid "lentil"
-msgstr "[HA] lentil"
-
-msgid "pomegranate"
-msgstr "[HA] pomegranate"
-
-msgid "banana"
-msgstr "[HA] banana"
-
-msgid "mango"
-msgstr "[HA] mango"
-
-msgid "grapes"
-msgstr "[HA] grapes"
-
-msgid "watermelon"
-msgstr "[HA] watermelon"
-
-msgid "muskmelon"
-msgstr "[HA] muskmelon"
-
-msgid "apple"
-msgstr "[HA] apple"
-
-msgid "orange"
-msgstr "[HA] orange"
-
-msgid "papaya"
-msgstr "[HA] papaya"
-
-msgid "coconut"
-msgstr "[HA] coconut"
-
-msgid "cotton"
-msgstr "[HA] cotton"
-
-msgid "jute"
-msgstr "[HA] jute"
-
-msgid "coffee"
-msgstr "[HA] coffee"
-
-
 
 #: .\accounts\models.py:6 .\agrismart\settings.py:39
 msgid "English"
-msgstr ""
+msgstr "Turanci"
 
 #: .\accounts\models.py:7 .\agrismart\settings.py:44
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: .\accounts\models.py:8 .\agrismart\settings.py:41
 msgid "Yoruba"
-msgstr ""
+msgstr "Yaraba"
 
 #: .\accounts\models.py:9 .\agrismart\settings.py:42
 msgid "Hausa"
-msgstr ""
+msgstr "Hausa"
 
 #: .\accounts\models.py:10 .\agrismart\settings.py:45
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu"
 
 #: .\accounts\models.py:11 .\agrismart\settings.py:43
 msgid "Igbo"
+msgstr "Igbo"
+
+#: .\accounts\views.py:35
+msgid "Check your email for verification"
+msgstr "Duba imel ɗinka don tabbatarwa"
+
+#: .\accounts\views.py:50
+msgid "Invalid or expired token"
+msgstr "Alamarka ba daidai ba ko ta ƙare"
+
+#: .\accounts\views.py:69
+msgid ""
+"If your email is in our system, we have sent you a link to reset your "
+"password."
+msgstr "Idan imel ɗinku yana cikin tsarinmu, mun tura hanyar haɗi don sake saita kalmar sirri."
+
+#: .\accounts\views.py:80 .\accounts\views.py:83
+msgid "Token is invalid or expired"
+msgstr "Alamarka ba ta daidai ba ko ta ƙare"
+
+#: .\accounts\views.py:94
+msgid "Password reset successful!"
+msgstr "Sake saita kalmar sirri ya yi nasara!"
+
+#: .\accounts\views.py:108
+msgid "Incorrect password."
+msgstr "Kalmar sirri ba daidai ba."
+
+#: .\accounts\views.py:113
+msgid "Password changed successfully."
+msgstr "An canza kalmar sirri cikin nasara."
+
+#: .\accounts\views.py:131
+msgid "Password is required."
+msgstr "Ana buƙatar kalmar sirri."
+
+#: .\accounts\views.py:135
+msgid "Invalid password."
+msgstr "Kalmar sirri ba ta dace ba."
+
+#: .\accounts\views.py:141
+msgid "Account deactivated successfully."
+msgstr "An dakatar da asusu cikin nasara."
+
+#: .\accounts\views.py:155
+msgid "Email and password are required."
+msgstr "Ana buƙatar imel da kalmar sirri."
+
+#: .\accounts\views.py:160
+msgid "Invalid credentials or account does not exist."
+msgstr "Takaddun shaida na ƙarya ko asusu ba ya wanzu."
+
+#: .\accounts\views.py:163
+msgid "Account is already active."
+msgstr "Asusun ya riga ya fara aiki."
+
+#: .\accounts\views.py:171
+msgid "Account reactivated successfully."
+msgstr "An sake kunna asusu cikin nasara!"
+
+#: .\community\views.py:86
+msgid "Removed from helpful"
+msgstr "An cire daga masu amfani"
+
+#: .\community\views.py:89
+msgid "Marked as helpful"
+msgstr "An sanya shi a matsayin mai amfani"
+
+#: .\core\views.py:39
+msgid "Farmer account created. Please check your email to verify your account."
+msgstr "An ƙirƙiri asusun manomi. Da fatan za ku duba imel ɗinku don tabbatar da asusunku."
+
+#: .\core\views.py:54
+msgid ""
+"Agronomist account created. Please check your email to verify your account."
+msgstr "An ƙirƙiri asusun agronomist. Da fatan za a duba imel ɗin ku don tabbatar da asusunku."
+
+#: .\core\views.py:120 .\core\views.py:125
+msgid "Profile not found."
+msgstr "Ba a sami bayanan martaba ba."
+
+#: .\core\views.py:156 .\core\views.py:177
+msgid "City not provided and no location found for user."
+msgstr "Ba a bayar da birni ba kuma ba a sami wurin ba ga mai amfani."
+
+#. Translators: This string is used as a separator between list elements
+#: .\core\views.py:205 .\venv\Lib\site-packages\django\utils\text.py:297
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
 msgstr ""
 
-#: .\accounts\models.py:12 .\agrismart\settings.py:40
-msgid "French"
+#: .\core\views.py:229
+msgid "Weather info missing and no city provided or found in profile."
+msgstr "Bayanin yanayi bai samu ba kuma ba a bayar da birni ko wani wuri ba a bayanan martaba."
+
+#: .\core\views.py:248
+msgid "confidence"
+msgstr "amincewa"
+
+#: .\core\views.py:280
+msgid "Soil is too acidic. Consider adding lime."
+msgstr "Kasa na ɗan acidic. Yi la’akari da ƙara lime"
+
+#: .\core\views.py:282
+msgid "Soil is too alkaline. Consider adding sulfur."
+msgstr "Kasa na alkaline sosai. Yi la’akari da ƙara sulfur"
+
+#: .\core\views.py:284
+msgid "pH level is optimal."
+msgstr "Matsayin pH ya dace."
+
+#: .\core\views.py:287
+msgid "Soil test submitted successfully."
+msgstr "An gabatar da gwajin ƙasa cikin nasara!"
+
+#: .\core\views.py:309
+msgid "Soil image analyzed successfully."
+msgstr "An gano hoton ƙasa cikin nasara!"
+
+#: .\marketplace\views.py:34
+msgid "Only farmers can create products."
+msgstr "Manomi ne kawai za su iya ƙirƙirar samfura."
+
+#: .\marketplace\views.py:86
+msgid "You are not allowed to update this product."
+msgstr "Ba a ba ku izinin sabunta wannan samfurin ba."
+
+#: .\marketplace\views.py:103
+msgid "You are not allowed to delete this product."
+msgstr "Ba a ba ku izinin gogewa wannan samfurin ba."
+
+#: .\marketplace\views.py:162
+msgid "Message deleted successfully."
+msgstr "Saƙon ya share cikin nasara."
+
+#: .\marketplace\views.py:163
+msgid "Not authorized to delete this message."
+msgstr "Ba a ba ku izinin share wannan saƙon ba."
+
+msgid "rice"
+msgstr "shinkafa"
+
+msgid "maize"
+msgstr "masara"
+
+msgid "chick pea"
+msgstr "s̃i–dawa"
+
+msgid "kidney beans"
+msgstr "wake na sikida"
+
+msgid "pigeon peas"
+msgstr "waken-masar"
+
+msgid "moth beans"
 msgstr ""
+
+msgid "mungbeans"
+msgstr "wake mung"
+
+msgid "blackgram"
+msgstr "wake gram"
+
+msgid "lentil"
+msgstr "wake lentil"
+
+msgid "pomegranate"
+msgstr "ganyen kwalelo"
+
+msgid "banana"
+msgstr "ayaba"
+
+msgid "mango"
+msgstr "mangworo"
+
+msgid "grapes"
+msgstr "inabi"
+
+msgid "watermelon"
+msgstr "latashi"
+
+msgid "muskmelon"
+msgstr "latashi"
+
+msgid "apple"
+msgstr "tufa"
+
+msgid "orange"
+msgstr "lemu"
+
+msgid "papaya"
+msgstr "pawpaw"
+
+msgid "coconut"
+msgstr "kwakwa"
+
+msgid "cotton"
+msgstr "auduga"
+
+msgid "jute"
+msgstr "juta"
+
+msgid "coffee"
+msgstr "kofi"
 
 #: .\venv\Lib\site-packages\alabaster\layout.html:99
 msgid "Page source"
@@ -1481,12 +1543,6 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#. Translators: This string is used as a separator between list elements
-#: .\venv\Lib\site-packages\django\utils\text.py:297
-#: .\venv\Lib\site-packages\django\utils\timesince.py:135
-msgid ", "
-msgstr ""
-
 #: .\venv\Lib\site-packages\django\utils\timesince.py:8
 #, python-format
 msgid "%(num)d year"
@@ -1696,6 +1752,34 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
 msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1394
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1447
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1451
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1455
+msgid "No response body"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1419
+#: .\venv\Lib\site-packages\drf_spectacular\openapi.py:1473
+msgid "Unspecified response body"
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\plumbing.py:487
+#, python-format
+msgid "Token-based authentication with required prefix \"%s\""
+msgstr ""
+
+#: .\venv\Lib\site-packages\drf_spectacular\views.py:45
+msgid ""
+"\n"
+"    OpenApi3 schema for this API. Format can be selected via content "
+"negotiation.\n"
+"\n"
+"    - YAML: application/vnd.oai.openapi\n"
+"    - JSON: application/vnd.oai.openapi+json\n"
+"    "
 msgstr ""
 
 #: .\venv\Lib\site-packages\python_docs_theme\layout.html:51
